@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Porfolio</title> 
+  <link rel="shortcut icon" href="/images/logo.jpeg" type="image/x-icon">
+  <meta name="description" content="Portfolio de Aria Riley - Designer UI/UX créatif. Découvrez mes projets de design d'interface, branding et expérience utilisateur.">
+  <meta name="keywords" content="UI/UX Designer, Design d'interface, Branding, Web Design, Graphic Design, Portfolio Design">
+  <meta name="author" content="Aria Riley">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Aria Riley - Designer UI/UX Créatif">
+  <meta property="og:description" content="Portfolio professionnel présentant mes services de design UI/UX, branding et création graphique.">
+  <meta property="og:image" content="/images/logo.jpeg">
+  <meta property="og:url" content="">
+  <!--Icon Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+  <!--Navbar-->
+  <nav class="navbar lg:px-15 lg:absolute lg:top-0 lg:left-0 lg:w-full lg:z-50 lg:bg-transparent ">
+
+    <!--Mobile-->
+    <div class="navbar-start gap-3">
+      <div class="dropdown">
+        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
+        </div>
+        <ul tabindex="-1" class=" menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow ">
+          <li class="transition-all duration-500 hover:text-orange-500 font-bold"><a>Home</a></li>
+          <li class="transition-all duration-500 hover:text-orange-500 font-bold"><a>About</a></li>
+          <li class="transition-all duration-500 hover:text-orange-500 font-bold"><a>Services</a></li>
+          <li class="transition-all duration-500 hover:text-orange-500 font-bold"><a>Work</a></li>
+        </ul>
+      </div>
+
+      <img src="/images/logo.jpeg" class="w-10" alt="logo">
+      <h2 class="font-bold text-xl ">Personal Portfolio</h2>
+
+
+    </div>
+
+    <!--PC-->
+    <div class="navbar-center hidden lg:flex">
+      <ul class=" menu-horizontal px-1 gap-5">
+        <li class="transition-all duration-500 hover:text-orange-500 font-bold"><a>Home</a></li>
+        <li class="transition-all duration-500 hover:text-orange-500 font-bold"><a>About</a></li>
+        <li class="transition-all duration-500 hover:text-orange-500 font-bold"><a>Services</a></li>
+        <li class="transition-all duration-500 hover:text-orange-500 font-bold"><a>Work</a></li>
+      </ul>
+    </div>
+    <div class="navbar-end">
+      <a class="btn bg-orange-600 text-white rounded-2xl">Contact</a>
+    </div>
+  </nav>
+
+  <!--Hero-->
+  <section class="relative hero-null  ">
+
+    <div class=" lg:px-0 px-3">
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-20 ">
+        <!--Debut-->
+        <div class="mt-15 lg:mt-50 lg:ps-18 flex flex-col gap-2">
+          <p class="text-sm text-orange-500">UI/UX</p>
+          <h2 class="lg:text-4xl text-2xl font-bold text-gray-800">Hello I’m</h2>
+          <h1 class="text-5xl font-bold bg-linear-to-r from-orange-500  to-red-500 bg-clip-text text-transparent"> Aria
+            Riley</h1>
+          <h2 class="text-2xl lg:text-4xl font-bold text-gray-800">Creative UI/UX Designer</h2>
+          <p>A UI/UX Designer focuses on creating user-friendly interfaces and optimizing the overall user experience by
+            understanding user needs and behaviors.They combine visual design skills with research and testing to ensure
+            that digital.</p>
+
+
+          <div class="mt-5 lg:mt-7">
+            <a href="#" class=" btn bg-linear-to-r from-orange-500 to-orange-700 border-2 border-orange-500 text-white px-5 py-6 rounded-full font-bold text-xl  ">Let's work
+              Together</a>
+          </div>
+
+        </div>
+
+
+        <!--colonne 2-->
+        <div class="relative hidden lg:flex bg-pink-100 items-center w-full  rounded-bl-[25vh] ">
+          <div class="bottom-0  right-10 absolute">
+            <!--image-->
+            <img src="images/girl-pf.png" class=" " alt="girl 1">
+          </div>
+          <!--carte haut gauche-->
+          <div class="bg-white py-2 px-5 shadow-2xl  rounded-xl border-b-2 border-b-green-400  border-r border-r-green-300 border-l border-l-green-300
+           top-40 -left-8 absolute animate-bounce [animation-duration:2s]">
+            <!--icone et texte-->
+            <div class=" flex justify-between items-center gap-1.5">
+
+              <!--icone-->
+              <div class="">
+                <i
+                  class="bi bi-folder-fill text-2xl text-green-200 border border-green-200  px-2 py-1 rounded-[100%] relative overflow-hidden"></i>
+              </div>
+
+              <!--texte-->
+              <div class=" text-center flex flex-col gap-1">
+                <h3 class="font-bold text-2xl text-green-500">200+</h3>
+                <p class="text-gray-400 text-sm">Live Projects</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!--carte milieu gauche-->
+          <div class="bg-white py-2 px-4 shadow-2xl  rounded-xl border-b-2 border-b-red-500  border-r border-r-red-300 border-l border-l-red-300
+           top-75 left-10 absolute animate-bounce [animation-duration:2s]">
+            <!--icone et texte-->
+            <div class=" flex justify-between items-center gap-1">
+
+              <!--icone-->
+              <div class="text-red-200 border border-red-200  py-1 px-2 rounded-[100%] ">
+                <i class="bi bi-star-fill text-2xl   "></i>
+              </div>
+
+              <!--texte-->
+              <div class=" text-center flex flex-col gap-1">
+                <h3 class="font-bold text-2xl text-red-500">1k</h3>
+                <p class="text-gray-400 text-sm">Reviews </p>
+              </div>
+            </div>
+
+          </div>
+
+          <!--carte haut droite-->
+          <div class="bg-white py-2 px-6 shadow-2xl  rounded-xl border-b-2 border-b-violet-500  border-r border-r-violet-300 border-l border-l-violet-300
+           top-53 left-118 absolute animate-bounce [animation-duration:2s]">
+            <!--icone et texte-->
+            <div class=" flex justify-between items-center gap-1">
+
+              <!--icone-->
+              <div class="text-violet-300 border border-violet-300  py-1 px-2 rounded-full ">
+                <i class="bi bi-journal-check text-2xl   "></i>
+              </div>
+
+              <!--texte-->
+              <div class=" text-center flex flex-col gap-1 items-center">
+                <h3 class="font-bold text-2xl text-violet-500">8+</h3>
+                <p class="text-gray-400 text-[12px] p-0 m-0 flex gap-1 "><span>Year’s</span> <span>Experience </span>
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+          <!--carte bas droite-->
+          <div class="bg-white py-2 px-2 shadow-2xl  rounded-xl border-b-2 border-b-blue-400  border-r border-r-blue-200 border-l border-l-blue-200
+           top-105 left-135  absolute animate-bounce [animation-duration:2s]">
+            <!--icone et texte-->
+            <div class=" flex justify-between items-center gap-1">
+
+              <!--icone-->
+              <div class="text-blue-200 border border-blue-200  py-1 px-2 rounded-[100%] ">
+                <i class="bi bi-person-fill text-2xl   "></i>
+              </div>
+
+              <!--texte-->
+              <div class=" text-center flex flex-col gap-1 items-center">
+                <h3 class="font-bold text-2xl text-blue-400">800 </h3>
+                <p class="text-gray-400 text-[12px] p-0 m-0 flex gap-1 ">Clients </p>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+        <!-- fin colonne 2-->
+      </div>
+
+    </div>
+  </section>
+
+  <!--About-->
+  <section class="">
+    <!-- defilement du texte en gris -->
+    <div class=" lg:mt-36 lg:mb-20  mt-10 mb-10   overflow-hidden  ">
+      <div class="text-defile flex gap-15">
+        <div class=" flex gap-5">
+          <img src="images/fleur.svg" alt="fleur">
+          <h1 class="text-4xl font-extrabold   text-white [-webkit-text-stroke:1px_#9ca3af]">
+            About Me
+          </h1>
+        </div>
+        <!-- defilement du texte en gris -->
+        <div class=" flex gap-5">
+          <img src="images/fleur.svg" alt="fleur">
+          <h1 class="text-4xl font-extrabold   text-white [-webkit-text-stroke:1px_#9ca3af]">
+            About Me
+          </h1>
+        </div>
+        <!-- defilement du texte en gris -->
+        <div class=" flex gap-5">
+          <img src="images/fleur.svg" alt="fleur">
+          <h1 class="text-4xl font-extrabold   text-white [-webkit-text-stroke:1px_#9ca3af]">
+            About Me
+          </h1>
+        </div>
+        <!-- defilement du texte en gris -->
+        <div class=" flex gap-5">
+          <img src="images/fleur.svg" alt="fleur">
+          <h1 class="text-4xl font-extrabold   text-white [-webkit-text-stroke:1px_#9ca3af]">
+            About Me
+          </h1>
+        </div>
+        <!-- defilement du texte en gris -->
+        <div class=" flex gap-5">
+          <img src="images/fleur.svg" alt="fleur">
+          <h1 class="text-4xl font-extrabold   text-white [-webkit-text-stroke:1px_#9ca3af]">
+            About Me
+          </h1>
+        </div>
+        <!-- defilement du texte en gris -->
+        <div class=" flex gap-5">
+          <img src="images/fleur.svg" alt="fleur">
+          <h1 class="text-4xl font-extrabold   text-white [-webkit-text-stroke:1px_#9ca3af]">
+            About Me
+          </h1>
+        </div>
+
+      </div>
+
+
+
+
+    </div>
+
+    <!--container-->
+    <div class="lg:px-15  px-10 bg-rose-100/55">
+      <div class="grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-5 lg:gap-10">
+
+        <!--1ere colonne-->
+        <div class="flex justify-center mt-10 lg:mt-20    ">
+          <img src="/images/girl-pf-2.png" class="w-118.75  rounded-t-[300px] border-4 bg-orange-200/65" alt="">
+        </div>
+
+        <!--2 ème colonne-->
+        <div class="">
+          <div class="text-9xl p-0  pb-40 lg:flex hidden text-rose-300/15 font-bold w-200 overflow-hidden relative ">
+            <h1 class="">Arial Riley</h1>
+          </div>
+
+          <div class="flex justify-center items-center lg:-mt-9 lg:-ml-55">
+            <!-- debut de la carte-->
+            <div
+              class="bg-white h-90 lg:h-70 p-5 lg:p-10 w-100 lg:w-250 rounded-4xl flex flex-col gap-5 lg:py-15  py-10">
+              <h1 class="font-bold text-xl lg:text-4xl  "> <span class="text-black/75">About MySelf</span> 🧡 </h1>
+              <p class="text-gray-700/80">A UI/UX Designer focuses on creating user-friendly interfaces and optimizing
+                the overall user
+                experience by
+                understanding user needs and behaviors.They combine visual design skills with research and testing to
+                ensure
+                that digital products are both functional and engaging.</p>
+              <!--bouton-->
+              <div>
+                <a href="#"
+                  class="bg-orange-500 p-2 px-4 rounded-2xl text-white transition-all duration-500 hover:bg-orange-700 ">Read
+                  More</a>
+              </div>
+              <!--fin de la carte-->
+            </div>
+          </div>
+
+        </div>
+        <!--fin colonne-->
+      </div>
+    </div>
+  </section>
+
+  <!--Services-->
+  <section>
+    <div class="lg:mt-56 mt-15 px-10 lg:px-15">
+      <!--texte-->
+      <div class=" text-center flex flex-col gap-4">
+        <h3 class="text-orange-500 text-[15px] font-bold">SERVICES</h3>
+        <h2 class="font-bold lg:text-4xl text-2xl text-gray-800">What I Bring to the Table </h2>
+        <p class="text-gray-600">From wireframes to wow moments I design seamless digital experiences that are as
+          functional as they are
+          beautiful.
+          Whether it’s intuitive user flows, scroll-stopping visuals, or full-scale product design.</p>
+        <div>
+          <a href="#" class="bg-amber-600  px-4 py-2 rounded-2xl text-white/90 w-6 text-[17px] font-bold">View All
+            Services</a>
+        </div>
+      </div>
+      <!--carte-->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-5  mb-15">
+        <!--colonne 1-->
+        <div
+          class="bg-white border border-orange-400/30 rounded-xl flex flex-col px-5 py-3 hover:border hover:border-orange-600 duration-500 mt-15 ">
+          <h1 class="text-[30px] font-bold text-gray-800 flex flex-col"><span>User Interface</span> <span>Design</span>
+          </h1>
+          <p class="text-gray-600/80 pt-1 pb-0">
+            Crafting clean, crisp, and conversion-friendly interfaces that don’t just look good — they work beautifully.
+            Every pixel is placed with intention,
+            ensuring your product is not only visually stunning but functionally flawless.</p>
+          <!--fin de la colonne-->
+        </div>
+        <!--colonne 2-->
+        <div
+          class="border border-white lg:w-100 w-80 h-75 lg:h-60 rounded-xl bg-[#40E0D0]/90 overflow-hidden flex  justify-end lg:mt-15 relative">
+          <img src="images/social-text.png"
+            class="lg:w-22 lg:h-16 w-25 h-20 lg:right-72 right-50 lg:top-15 top-20 absolute " alt="">
+          <img src="images/graphic.png" class="lg:w-78 lg:h-60  w-60 h-77 " alt="carte 2">
+          <!--fin de la colonne-->
+        </div>
+        <!--colonne 3-->
+        <div
+          class="bg-white lg:w-100 w-80 h-75 lg:h-60 border border-violet-500/40 rounded-xl flex flex-col px-5 py-3 hover:border hover:border-blue-700 duration-500 lg:mt-15 ">
+          <h1 class="text-[30px] font-bold text-gray-800 flex flex-col"><span>Branding & Logo</span> <span>Design</span>
+          </h1>
+          <p class="text-gray-600/80 pt-1 pb-6">
+
+            Your brand is more than a logo — it’s the voice, vibe, and visual heartbeat of everything you do. I create
+            bold, memorable identities that reflect your purpose and
+            connect with your audience.</p>
+          <!--fin de la colonne-->
+        </div>
+        <!--colonne 4-->
+        <div
+          class="border border-white lg:w-100 w-80 h-75 lg:h-60 rounded-xl bg-orange-300/80 overflow-hidden flex relative justify-end lg:mt-5">
+          <img src="images/design-text.png" class=" absolute top-0 left-5 w-22 h-16" alt="carte 3">
+          <img src="images/responsive-design.png" class="lg:w-70 lg:h-40  w-70 h-50 absolute bottom-0" alt="carte 2">
+          <!--fin de la colonne-->
+        </div>
+        <!--colonne 5-->
+        <div
+          class="bg-white lg:w-100 w-80 h-75 lg:h-60 border border-blue-500/40 rounded-xl flex flex-col px-5 py-3 hover:border hover:border-blue-500 duration-500 lg:mt-5 ">
+          <h1 class="text-[30px] font-bold text-gray-800 flex flex-col"><span>Branding & Logo</span> <span>Design</span>
+          </h1>
+          <p class="text-gray-600/80 pt-1 pb-6">
+
+            Your brand is more than a logo — it’s the voice, vibe, and visual heartbeat of everything you do. I create
+            bold, memorable identities that reflect your purpose and
+            connect with your audience.</p>
+          <!--fin de la colonne-->
+        </div>
+        <!--colonne 6-->
+        <div
+          class="border border-white lg:w-100 w-80 h-75 lg:h-60 rounded-xl bg-rose-300/80 overflow-hidden flex relative justify-end lg:mt-5">
+          <img src="images/branding-text.png" class=" absolute top-0 left-5 w-22 h-10" alt="">
+          <img src="images/branding.png" class="lg:w-70 lg:h-60  w-70 h-60 absolute bottom-0" alt="carte 4">
+          <!--fin de la colonne-->
+        </div>
+        <!--fin de ligne-->
+      </div>
+    </div>
+  </section>
+
+  <!--work-->
+  <section class="mt-7 lg:mt-20 ">
+    <div class="px-10 lg:px-15 bg-rose-50/50  py-10 lg:py-20">
+      <!--texte-->
+      <div class=" text-center flex flex-col gap-4">
+        <h3 class="text-orange-500 text-[15px] font-bold">PORFOLIO</h3>
+        <h2 class="font-bold lg:text-4xl text-2xl text-gray-800/95">Work That Works </h2>
+        <p class="text-gray-600">A curated collection of design solutions that blend creativity with usability. From
+          mobile apps to web platforms,
+          each project showcases my approach to problem-solving, user-first thinking, and pixel-perfect execution. Dive
+          in and see how ideas come to life through thoughtful design.
+        </p>
+        <!--boutton-->
+        <div class="lg:mt-5 mt-3">
+          <a href="#"
+            class="bg-amber-700  border-orange-400 border-2 px-5 py-3 rounded-3xl text-white/90 w-6 text-[17px] font-bold ">View
+            All Work
+          </a>
+        </div>
+      </div>
+      <!--debut ligne-->
+      <div class="grid grid-cols-1 lg:grid-cols-3 mt-10 lg:mt-18 lg:gap-10 gap-10   ">
+        <!--debut colonne-->
+        <div class=" flex flex-col items-center justify-center ">
+          <!--image-->
+          <img src="images/work-1.png" class="w-95 h-100 rounded-2xl" alt="work 1">
+
+          <!--carte 1-->
+          <div class="bg-white h-40  w-82 rounded-2xl shadow text-center py-6 -mt-26">
+            <h3 class="text-orange-500 text-[17px] font-bold">Content Creation</h3>
+            <p class="text-[20px] font-bold text-black/80 pb-5 pt-3">Engaging Bloc Series</p>
+            <div>
+              <a href="#" class="bg-orange-100   px-5 py-3 rounded-3xl text-orange-500 w-6 text-[15px] font-bold ">View
+                Details
+              </a>
+            </div>
+
+          </div>
+          <!--fin de colonne-->
+        </div>
+        <!--debut colonne-->
+        <div class=" flex flex-col items-center justify-center ">
+          <!--image-->
+          <img src="images/work-2.png" class="w-95 h-100 rounded-2xl" alt="work 2">
+
+          <!--carte 2-->
+          <div class="bg-white h-40  w-82 rounded-2xl shadow text-center py-6 -mt-26">
+            <h3 class="text-orange-500 text-[17px] font-bold">Graphic Design</h3>
+            <p class="text-[20px] font-bold text-black/80 pb-5 pt-3">Branding & logo Design</p>
+            <div>
+              <a href="#" class="bg-orange-100   px-5 py-3 rounded-3xl text-orange-500 w-6 text-[15px] font-bold ">View
+                Details
+              </a>
+            </div>
+
+          </div>
+          <!--fin de colonne-->
+        </div>
+        <!--debut colonne-->
+        <div class=" flex flex-col items-center justify-center ">
+          <!--image-->
+          <img src="images/work-3.png" class="w-95 h-100 rounded-2xl" alt="work 3">
+
+          <!--carte 3-->
+          <div class="bg-white h-40  w-82 rounded-2xl shadow text-center py-6 -mt-26">
+            <h3 class="text-orange-500 text-[17px] font-bold">App Development</h3>
+            <p class="text-[20px] font-bold text-black/80 pb-5 pt-3">E-commerce Platform</p>
+            <div>
+              <a href="#" class="bg-orange-100   px-5 py-3 rounded-3xl text-orange-500 w-6 text-[15px] font-bold ">View
+                Details
+              </a>
+            </div>
+
+          </div>
+          <!--fin de colonne-->
+        </div>
+        <!--debut colonne-->
+        <div class=" flex flex-col items-center justify-center ">
+          <!--image-->
+          <img src="images/work-4.png" class="w-95 h-100 rounded-2xl" alt="work 4work-4.png">
+
+          <!--carte 4-->
+          <div class="bg-white h-40  w-82 rounded-2xl shadow text-center py-6 -mt-26">
+            <h3 class="text-orange-500 text-[17px] font-bold">Mobile Apps Design</h3>
+            <p class="text-[20px] font-bold text-black/80 pb-5 pt-3">health PLatform</p>
+            <div>
+              <a href="#" class="bg-orange-100   px-5 py-3 rounded-3xl text-orange-500 w-6 text-[15px] font-bold ">View
+                Details
+              </a>
+            </div>
+
+          </div>
+          <!--fin de colonne-->
+        </div>
+        <!--debut colonne-->
+        <div class=" flex flex-col items-center justify-center ">
+          <!--image-->
+          <img src="images/work-5.png" class="w-95 h-100 rounded-2xl" alt="work 4work-5.png">
+
+          <!--carte 5-->
+          <div class="bg-white h-40  w-82 rounded-2xl shadow text-center py-6 -mt-26">
+            <h3 class="text-orange-500 text-[17px] font-bold">Graphic Design</h3>
+            <p class="text-[20px] font-bold text-black/80 pb-5 pt-3">Branding & logo Design</p>
+            <div>
+              <a href="#" class="bg-orange-100   px-5 py-3 rounded-3xl text-orange-500 w-6 text-[15px] font-bold ">View
+                Details
+              </a>
+            </div>
+
+          </div>
+          <!--fin de colonne-->
+        </div>
+        <!--debut colonne-->
+        <div class=" flex flex-col items-center justify-center ">
+          <!--image-->
+          <img src="images/work-6.png" class="w-95 h-100 rounded-2xl" alt="work 4work-6.png">
+
+          <!--carte 5-->
+          <div class="bg-white h-40  w-82 rounded-2xl shadow text-center py-6 -mt-26">
+            <h3 class="text-orange-500 text-[17px] font-bold">UI/UX</h3>
+            <p class="text-[20px] font-bold text-black/80 pb-5 pt-3">Website Design</p>
+            <div>
+              <a href="#" class="bg-orange-100   px-5 py-3 rounded-3xl text-orange-500 w-6 text-[15px] font-bold ">View
+                Details
+              </a>
+            </div>
+
+          </div>
+          <!--fin de colonne-->
+        </div>
+        <!--fin ligne-->
+      </div>
+    </div>
+
+
+  </section>
+
+  <!--Testimonials-->
+  <section class="px-10 lg:px-15 mt-7 lg:mt-20 ">
+    <!--texte-->
+    <div class=" text-center flex flex-col gap-4">
+      <h3 class="text-orange-500 text-[14px] font-bold uppercase">Testimonials</h3>
+      <h2 class="font-bold lg:text-4xl text-2xl text-gray-800/95">People I’ve Collaborated With </h2>
+      <p class="text-gray-600">From startups to established brands, I’ve had the privilege of working with clients
+        across
+        industries to create meaningful digital experiences. Every project is a partnership, and every design reflects a
+        shared
+        vision brought to life with precision, creativity, and care.
+      </p>
+      <!--boutton-->
+      <div class="lg:mt-5 mt-3">
+        <a href="#"
+          class="bg-amber-700  border-orange-400 border-2 px-6 py-3 rounded-3xl text-white/90 w-6 text-[17px] font-bold ">View
+          All Testimonials
+        </a>
+      </div>
+    </div>
+    <!--debut ligne -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 lg:my-32 my-18 gap-5 ">
+      <!--debut carte-->
+      <div
+        class=" bg-white border lg:w-100 w-77  lg:h-70 h-75 rounded-2xl border-gray-300 p-5 flex flex-col lg:gap-12 gap-8">
+        <!--icone-->
+        <div>
+          <i class="bi bi-star-fill text-orange-500 text-2xl"></i>
+          <i class="bi bi-star-fill text-orange-500 text-2xl"></i>
+          <i class="bi bi-star-fill text-orange-500 text-2xl"></i>
+          <i class="bi bi-star-fill text-orange-500 text-2xl"></i>
+          <i class="bi bi-star-fill text-orange-500 text-2xl"></i>
+        </div>
+        <!--paragraphe-->
+        <div class="text-[16px] text-gray-600/85 font-bold">
+          <p>FlyonUI has made designing my web applications effortless. The components are easy to customize and
+            integrate seamlessly!</p>
+        </div>
+        <!--Texte + photo-->
+        <div class=" flex  justify-start gap-3 items-center">
+          <img src="images/17.png" class="w-10 h-10 rounded-[100%] overflow-hidden" alt="carte 1">
+          <div>
+            <h5 class="font-bold text-[16px] text-black/75 overflow-hidden">Craig Bator</h1>
+              <h5><span class="text-gray-600/85 overflow-hidden">CEO & Co Founder at Zendesk</span><span
+                  class="font-bold text-[16px] text-black/75">
+                  Orbit</span></h1>
+          </div>
+
+        </div>
+        <!--fin carte-->
+      </div>
+      <!--debut carte 2-->
+      <div
+        class=" bg-white border lg:w-100 w-77  lg:h-70 h-70 rounded-2xl border-gray-300 p-5 flex flex-col lg:gap-12 gap-8">
+        <!--icone-->
+        <div>
+          <i class="bi bi-star-fill text-orange-500 text-2xl"></i>
+          <i class="bi bi-star-fill text-orange-500 text-2xl"></i>
+          <i class="bi bi-star-fill text-orange-500 text-2xl"></i>
+          <i class="bi bi-star-fill text-orange-500 text-2xl"></i>
+          <i class="bi bi-star-half text-orange-500 text-2xl"></i>
+        </div>
+        <!--paragraphe-->
+        <div class="text-[15px] text-gray-600/85 font-bold">
+          <p>With FlyonUI, I can easily track my investments and see how they.re performing in real-time.</p>
+        </div>
+        <!--Texte + photo-->
+        <div class=" flex  justify-start gap-3 items-center pt-7">
+          <img src="images/5.png" class="w-10 h-10 rounded-[100%] overflow-hidden" alt="carte 1">
+          <div>
+            <h5 class="font-bold text-[16px] text-black/75 overflow-hidden">Martin Dorwart</h1>
+              <h5><span class="text-gray-600/85 overflow-hidden">Product manager at</span><span
+                  class="font-bold text-[16px] text-black/75">
+                  Orbit</span></h1>
+          </div>
+
+        </div>
+        <!--fin carte-->
+      </div>
+      <!--debut carte 3-->
+      <div
+        class=" bg-white border lg:w-100 w-77  lg:h-70 h-75 rounded-2xl border-gray-300 p-5 flex flex-col lg:gap-9 gap-8">
+        <!--icone-->
+        <div>
+          <i class="bi bi-star-fill text-orange-500 text-2xl"></i>
+          <i class="bi bi-star-fill text-orange-500 text-2xl"></i>
+          <i class="bi bi-star-fill text-orange-500 text-2xl"></i>
+          <i class="bi bi-star-fill text-orange-500 text-2xl"></i>
+          <i class="bi bi-star-fill text-orange-500 text-2xl"></i>
+        </div>
+        <!--paragraphe-->
+        <div class="text-[16px] text-gray-700/70 font-bold">
+          <p>FlyonUI's components saved us so much time! The responsive designs and intuitive interface made our
+            development process faster and more efficient</p>
+        </div>
+        <!--Texte + photo-->
+        <div class=" flex  justify-start gap-3 items-center">
+          <img src="images/3.png" class="w-10 h-10 rounded-[100%] overflow-hidden" alt="carte 1">
+          <div>
+            <h5 class="font-bold text-[16px] text-black/75 overflow-hidden">Alexandra Lee</h1>
+              <h5><span class="text-gray-600/85 overflow-hidden">Lead Developer at</span><span
+                  class="font-bold text-[16px] text-black/75">
+                  TechNova</span></h1>
+          </div>
+
+        </div>
+        <!--fin carte-->
+      </div>
+      <!--fin ligne-->
+    </div>
+
+
+  </section>
+
+  <!--FAQS-->
+  <section class="mt-15 lg:mt-20 lg:mb-20 ">
+    <div class="px-10 lg:px-15  bg-rose-50/50  py-10 lg:py-20">
+      <!--texte-->
+      <div class=" text-center flex flex-col gap-4">
+        <h3 class="text-orange-500 text-[13px] font-bold uppercase">Faqs</h3>
+        <h2 class="font-bold lg:text-4xl text-2xl text-gray-800/95">Frequently Asked Questions </h2>
+        <p class="text-gray-600">Got questions? I’ve got answers. Whether you're curious about my process,
+          availability, or how we can work together — here are a few things clients often ask.
+        </p>
+
+      </div>
+      <!--debut ligne-->
+      <div class=" pl-7 grid grid-cols-1 lg:grid-cols-2">
+        <!--carte 1-->
+        <div class="bg-white lg:w-140 lg:h-45 w-80 h-55 mt-7 lg:mt-20  rounded-xl px-7 py-4 group hover:text-orange-500 hover:shadow-xl border-l-3 border-l-transparent transition duration-500
+       hover:border-l-orange-500  ">
+          <div class="flex justify-between ">
+            <h1 class="font-bold text-gray-950/80 text-[15.5px]  border-gray-950/33 pb-4 group-hover:text-orange-500 ">
+              What services do you offer?</h1>
+            <span
+              class="bg-gray-300 rounded-[100%] lg:h-8 lg:w-8 h-8 w-8 text-[16px]  flex items-center justify-center lg:text-[20px] text-gray-500 group-hover:text-orange-500 group-hover:bg-orange-100 ">?</span>
+          </div>
+          <p
+            class="font-bold text-black/56 text-[14.5px] py-3 border-t   flex items-center justify-center  border-gray-950/29">
+            I specialize in UI/UX design, branding, and visual design
+            for web and mobile platforms. From wireframes and user flows to
+            polished interfaces and prototypes — I cover the full design journey.</p>
+        </div>
+        <!--carte 2-->
+        <div class="bg-white lg:w-140 lg:h-45 w-80 h-55 mt-7 lg:mt-20  rounded-xl px-7 py-4 group hover:text-orange-500 hover:shadow-xl border-l-3 border-l-transparent transition duration-300
+       hover:border-l-orange-500  ">
+          <div class="flex justify-between ">
+            <h1 class="font-bold text-gray-950/80 text-[15.5px]  border-gray-950/33 pb-4 group-hover:text-orange-500 ">
+              Do you work with startups or only
+              large companies?</h1>
+            <span
+              class="bg-gray-300 rounded-[100%] lg:h-8 lg:w-8 h-8 w-12 text-[16px]  flex items-center justify-center  lg:text-[20px]  text-gray-500 group-hover:text-orange-500 group-hover:bg-orange-100 ">?</span>
+          </div>
+          <p class="font-bold text-black/56 text-[14.5px] py-3 border-t  border-gray-950/29">Both! I enjoy working with
+            early-stage startups
+            just as much as established brands. Each project is a new opportunity to solve problems creatively, no
+            matter the size.</p>
+        </div>
+        <!--carte 3-->
+        <div class="bg-white lg:w-140 lg:h-45 w-80 h-60 mt-7 lg:mt-10  rounded-xl px-7 py-4 group hover:text-orange-500 hover:shadow-xl border-l-3 border-l-transparent transition duration-300
+       hover:border-l-orange-500  ">
+          <div class="flex justify-between ">
+            <h1 class="font-bold text-gray-950/80 text-[15.5px]  border-gray-950/33 pb-4 group-hover:text-orange-500 ">
+              What tools do you use for your design work?</h1>
+            <span
+              class="bg-gray-300 rounded-[100%] lg:h-8 lg:w-8 h-8 w-10 text-[16px] flex items-center justify-center  lg:text-[20px] text-gray-500 group-hover:text-orange-500 group-hover:bg-orange-100 ">?</span>
+          </div>
+          <p class="font-bold text-black/56 text-[14.5px] py-3 border-t  border-gray-950/29">Figma is my go-to for UI/UX
+            design, along with tools like Adobe XD,
+            Illustrator, and Photoshop. I also use Notion,
+            Trello, or Slack for project collaboration depending on the client’s workflow.</p>
+        </div>
+        <!--carte 4-->
+        <div class="bg-white lg:w-140 lg:h-45 w-80 h-60 mt-7 lg:mt-10  rounded-xl px-7 py-4 group hover:text-orange-500 hover:shadow-xl border-l-3 border-l-transparent transition duration-300
+       hover:border-l-orange-500  ">
+          <div class="flex justify-between ">
+            <h1 class="font-bold text-gray-950/80 text-[17.5px]  border-gray-950/33 pb-4 group-hover:text-orange-500 ">
+              What is your typical design process?</h1>
+            <span
+              class="bg-gray-300 rounded-[100%] lg:h-8 lg:w-8 h-8 w-10 text-[12px] lg:text-[20px] flex items-center justify-center   text-gray-500 group-hover:text-orange-500 group-hover:bg-orange-100 ">?</span>
+          </div>
+          <p class="font-bold text-black/56 text-[14.5px] py-3 border-t  border-gray-950/29">I start by understanding
+            the user's needs and the project goals. From there, I move into wireframing, prototyping, visual design,*
+            and finally handoff with all necessary assets.</p>
+        </div>
+        <!--fin ligne-->
+      </div>
+    </div>
+
+  </section>
+
+  <!--Galery-->
+  <section class="mt-15 lg:mt-20 lg:mb-20 mb-10">
+    <div class="px-10 lg:px-15 ">
+      <!--texte-->
+      <div class=" text-center flex flex-col gap-4 items-center">
+        <h3 class="text-orange-500 text-[13px] font-bold uppercase">My Gallery</h3>
+        <h2 class="font-bold lg:text-4xl text-2xl text-gray-800/95">More Than Just Design </h2>
+        <p class="text-gray-600 lg:w-120 w-80 mb-10">Because there’s so much more to life than pixels and wireframes
+          this is where creativity, curiosity, and personal passion come to life.
+        </p>
+      </div>
+      <!--defilement image vers la gauche-->
+      <div class="defile-left flex gap-5 mb-7">
+        <img src="images/gallery-1.png" class="lg:w-65 w-45 rounded-2xl" alt="1">
+        <img src="images/gallery-2.png" class="lg:w-65 w-45 rounded-2xl" alt="2">
+        <img src="images/gallery-3.png" class="lg:w-65 w-45 rounded-2xl" alt="3">
+        <img src="images/gallery-4.png" class="lg:w-65 w-45 rounded-2xl" alt="4">
+        <img src="images/gallery-5.png" class="lg:w-65 w-45 rounded-2xl" alt="5">
+
+        <!--duplication-->
+        <img src="images/gallery-1.png" class="lg:w-65 w-45 rounded-2xl" alt="1">
+        <img src="images/gallery-2.png" class="lg:w-65 w-45 rounded-2xl" alt="2">
+        <img src="images/gallery-3.png" class="lg:w-65 w-45 rounded-2xl" alt="3">
+        <img src="images/gallery-4.png" class="lg:w-65 w-45 rounded-2xl" alt="4">
+        <img src="images/gallery-5.png" class="lg:w-65 w-45 rounded-2xl" alt="5">
+      </div>
+
+      <!--defilement image vers la droite-->
+      <div class="defile-right flex gap-5 ">
+        <img src="images/gallery-6.png" class="lg:w-65 w-45 rounded-2xl" alt="6">
+        <img src="images/gallery-7.png" class="lg:w-65 w-45 rounded-2xl" alt="7">
+        <img src="images/gallery-8.png" class="lg:w-65 w-45 rounded-2xl" alt="8">
+        <img src="images/gallery-9.png" class="lg:w-65 w-45 rounded-2xl" alt="9">
+        <img src="images/gallery-10.png" class="lg:w-65 w-45 rounded-2xl" alt="10">
+
+        <!--duplication-->
+        <img src="images/gallery-6.png" class="lg:w-65 w-45 rounded-2xl" alt="6">
+        <img src="images/gallery-7.png" class="lg:w-65 w-45 rounded-2xl" alt="7">
+        <img src="images/gallery-8.png" class="lg:w-65 w-45 rounded-2xl" alt="8">
+        <img src="images/gallery-9.png" class="lg:w-65 w-45 rounded-2xl" alt="9">
+        <img src="images/gallery-10.png" class="lg:w-65 w-45 rounded-2xl" alt="10">
+      </div>
+  </section>
+
+  <!--Contact-->
+  <section class="mt-15 lg:mt-20 mb-10">
+    <div class="px-5 lg:px-15 bg-gray-50/35">
+      <!--texte-->
+      <div class=" flex flex-col gap-4 items-center">
+        <h3 class="text-orange-500 text-[13px] font-bold uppercase">Contact US</h3>
+        <h2 class="font-bold lg:text-4xl text-2xl text-gray-800/95">How Can I Help? </h2>
+        <p class="text-gray-600 lg:w-180 w-90 mb-10 text-xl text-center">Have a question or need assistance? Contact us
+          and let’s find a solution together!
+        </p>
+      </div>
+      <!--Formulaire-->
+      <div class="border border-gray-300 rounded-2xl  lg:w-full  mt-3 lg:mt-18">
+        <div class="grid lg:grid-cols-2 grid-cols-1 ">
+          <!--debut ligne-->
+          <!-- debut de la colonne de gauche-->
+          <div
+            class="bg-orange-500/95 lg:py-7 lg:px-7 lg:w-90 h-100  w-[39vh] lg:m-5 py-10 px-5 m-7   rounded-2xl relative ">
+            <h2 class="text-white/90 text-[25px] font-bold pb-3">Contact Information</h2>
+            <p class="text-white/80 text-[16px] ">Explore new destinations, indulge in local cuisines, and immerse
+              yourself in
+              diverse cultures.</p>
+            <!--icone-->
+            <div class="flex flex-col text-white/80 text-[18px] font-bold gap-5 pt-7">
+              <!--phone-->
+              <div class="flex items-center gap-3">
+                <i class="bi bi-telephone text-3xl"></i>
+                <p>+1-316-555-1258</p>
+              </div>
+              <!--mail-->
+              <div class="flex items-center gap-3">
+                <i class="bi bi-envelope text-3xl"></i>
+                <p>hadams@gmail.com</p>
+              </div>
+              <!--adress-->
+              <div class="flex items-center gap-3">
+                <i class="bi bi-geo-alt text-3xl"></i>
+                <p>802 Pension Rd, Maine 96812, USA</p>
+              </div>
+            </div>
+            <!--logo en bas centré -->
+            <div>
+              <img src="images/fond-logo.svg" class="absolute -bottom-2 lg:right-25 right-15 overflow-hidden"
+                alt="logo">
+            </div>
+            <!-- fin de la colonne de droite-->
+          </div>
+
+
+
+          <!-- debut de la colonne de droite : formulaire sur ecran large  -->
+          <div class=" lg:-ml-60 lg:flex hidden ">
+            <form class="grid gap-6">
+
+              <div class="mt-7 mx-15 flex flex-col gap-7  ">
+                <!-- ligne 1  -->
+                <div class="flex items-center gap-5">
+                  <div>
+                    <!-- Name -->
+                    <h1 class="text-[15px]">Your Name</h1>
+                    <input type="text" placeholder="Enter Your Names here..."
+                      class="w-90 p-2.5 rounded-4xl  border border-gray-400 focus:border-orange-500 focus:outline-none">
+                  </div>
+                  <div class="">
+                    <!-- Mail  -->
+                    <h1>Your Email</h1>
+                    <input type="email" placeholder="Enter Your Email here..."
+                      class="w-90 p-2.5 rounded-4xl  border border-gray-400 focus:border-orange-500 focus:outline-none">
+                  </div>
+                </div>
+
+                <!-- ligne 2  -->
+                <div class="flex items-center gap-5">
+                  <div>
+                    <!-- Subject -->
+                    <h1>Subject</h1>
+                    <input type="text" placeholder="Enter Your Subject here..."
+                      class="w-187 p-2.5 rounded-4xl  border border-gray-400 focus:border-orange-500 focus:focus:outline-none">
+                  </div>
+                </div>
+                <!-- Ligne 5 -->
+                <div>
+                  <!-- Message -->
+                  <h1>Message</h1>
+                  <textarea rows="5" placeholder="Type Here ..."
+                    class="w-full p-2 h-22 rounded-4xl border border-gray-400 focus:border-orange-500 focus:outline-none "></textarea>
+                </div>
+                <!-- boutton -->
+                <div class="">
+                  <a href="#"
+                    class="bg-amber-700 rounded-4xl text-white font-bold  px-4 py-2 border-amber-600 border-2">Send
+                    Message</a>
+                </div>
+              </div>
+
+            </form>
+            <!--fin de la colonne droite ecran large-->
+          </div>
+
+          <!-- debut de la colonne de droite : formulaire sur écran  mobile -->
+          <div class=" ml-5 flex lg:hidden ">
+            <form class="flex gap-6">
+
+              <div class="mt-7  flex flex-col gap-7  ">
+
+                <!-- ligne 1  -->
+                <div>
+                  <!-- Name -->
+                  <h1 class="h-8" class="text-[15px]">Your Name</h1>
+                  <input type="text" placeholder="Enter Your Names here..."
+                    class="w-78 p-2.5 rounded-4xl  border border-gray-400 focus:border-orange-500 focus:outline-none">
+                </div>
+
+                <!-- ligne 2  -->
+                <div>
+                  <!-- Mail  -->
+                  <h1 class="h-8">Your Email</h1>
+                  <input type="email" placeholder="Enter Your Email here..."
+                    class=" w-78 p-2.5 rounded-4xl  border border-gray-400 focus:border-orange-500 focus:outline-none">
+                </div>
+
+                <!-- ligne 3  -->
+                <div>
+                  <!-- Subject -->
+                  <h1 class="h-8">Subject</h1>
+                  <input type="text" placeholder="Enter Your Subject here..."
+                    class=" w-78 p-2.5 rounded-4xl  border border-gray-400 focus:border-orange-500 focus:focus:outline-none">
+                </div>
+
+                <!-- Ligne 4 -->
+
+                <!-- Message -->
+                <h1 class="h-1">Message</h1>
+                <textarea rows="5" placeholder="Type Here ..."
+                  class=" w-78 p-2 h-22 mt-0 rounded-4xl border border-gray-400 focus:border-orange-500 focus:outline-none "></textarea>
+
+                <!-- boutton -->
+                <a href="#"
+                  class="bg-amber-700 rounded-4xl text-white font-bold  px-3 py-1.5 border-amber-600 border-2 text-center mb-5">Send
+                  Message</a>
+
+              </div>
+            </form>
+            <!--fin de la colonne droite mobile-->
+          </div>
+
+          <!--fin ligne ligne-->
+        </div>
+  </section>
+
+  <!--end-bar-->
+  <section class="mt-20 border-t border-b  border-gray-400/65  ">
+    <div class="px-10 lg:px-15">
+      <div class="flex item-center lg:justify-between py-5 flex-col lg:flex-row gap-2 ">
+        <!--logo-->
+        <div class="flex gap-3 justify-center">
+          <img src="images/logo.jpeg" class="w-9" alt="logo">
+          <h1 class="font-bold text-xl text-black/85 mt-1">Personal Portfolio</h1>
+        </div>
+        <!--menu-->
+        <div class="flex  gap-5 lg:mt-2  justify-center">
+          <a href="#" class="font-bold text-gray-700/85">About</a>
+          <a href="#" class="font-bold text-gray-700/85">Service</a>
+          <a href="#" class="font-bold text-gray-700/85">Work</a>
+        </div>
+        <!--social logo-->
+      <div class="flex gap-3 justify-center">
+        <img src="images/facebook.svg"  class="w-5" alt="facebook">
+        <img src="images/instagram.svg" class="w-5"  alt="instagram">
+        <img src="images/x.svg"  class="w-5" alt="x">
+        <img src="images/github.svg"  class="w-5" alt="github">
+      </div>
+      </div>  
+    </div>
+  </section>
+  
+  <!--end-bar-->
+  <section>
+      <p class="text-center py-5 w-full  flex flex-col lg:flex-row justify-center "> <span>©2024 <span class="text-orange-500 "> FlyonUI</span> ,</span> <span> Made With ❤️ for a better web.</span></p>
+    
+  </section>
+</body>
+
+</html>
